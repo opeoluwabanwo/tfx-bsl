@@ -95,7 +95,6 @@ setup(
         'protobuf>=3.7,<4',
         'six>=1.12,<2',
         'tensorflow-metadata>=0.21,<0.22',
-        'tensorflow-serving-api>=1.15,<3',
     ] + [_PYARROW_VERSION_REQUIREMENT],
     python_requires='>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,<4',
     packages=find_packages(),
