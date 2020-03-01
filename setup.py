@@ -94,7 +94,6 @@ setup(
         'numpy>=1.16,<2',
         'protobuf>=3.7,<4',
         'six>=1.12,<2',
-        'tensorflow>=1.15,<3',
         'tensorflow-metadata>=0.21,<0.22',
         'tensorflow-serving-api>=1.15,<3',
     ] + [_PYARROW_VERSION_REQUIREMENT],
